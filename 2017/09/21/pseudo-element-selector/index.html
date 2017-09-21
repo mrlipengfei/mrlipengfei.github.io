@@ -53,7 +53,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content=":after和:before的妙用," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -69,20 +69,19 @@
 
 
 
-<meta name="description" content="你所不知的 CSS ::before 和 ::after 伪元素用法                         &amp;nbsp;     &amp;lt;/div&amp;gt;       CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被人用来添加些自定义格式什么的，但是它们的功用不仅于此。前几天发现了 Creative Link Effects 这个非常有意">
-<meta name="keywords" content=":after和:before的妙用">
+<meta name="description" content="title: 你所不知道的伪元素用法date: 2017-09-21 19:01:04tags: :after和:before的妙用            你所不知的 CSS ::before 和 ::after 伪元素用法                         &amp;nbsp; &amp;lt;/div&amp;gt;       CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被">
 <meta property="og:type" content="article">
-<meta property="og:title" content="你所不知道的伪元素用法">
+<meta property="og:title" content="我的博客">
 <meta property="og:url" content="https://mrlipengfei.github.io/2017/09/21/pseudo-element-selector/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="你所不知的 CSS ::before 和 ::after 伪元素用法                         &amp;nbsp;     &amp;lt;/div&amp;gt;       CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被人用来添加些自定义格式什么的，但是它们的功用不仅于此。前几天发现了 Creative Link Effects 这个非常有意">
+<meta property="og:description" content="title: 你所不知道的伪元素用法date: 2017-09-21 19:01:04tags: :after和:before的妙用            你所不知的 CSS ::before 和 ::after 伪元素用法                         &amp;nbsp; &amp;lt;/div&amp;gt;       CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://img1.cheny.org/dimblog/2013/10/6c8c93717f50f6fadccb91d09f4b981e1.gif">
 <meta property="og:image" content="http://img1.cheny.org/dimblog/2013/10/6cc221614774e78add77d4e7a1171f591.gif">
-<meta property="og:updated_time" content="2017-09-21T11:03:48.301Z">
+<meta property="og:updated_time" content="2017-09-21T11:21:16.487Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="你所不知道的伪元素用法">
-<meta name="twitter:description" content="你所不知的 CSS ::before 和 ::after 伪元素用法                         &amp;nbsp;     &amp;lt;/div&amp;gt;       CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被人用来添加些自定义格式什么的，但是它们的功用不仅于此。前几天发现了 Creative Link Effects 这个非常有意">
+<meta name="twitter:title" content="我的博客">
+<meta name="twitter:description" content="title: 你所不知道的伪元素用法date: 2017-09-21 19:01:04tags: :after和:before的妙用            你所不知的 CSS ::before 和 ::after 伪元素用法                         &amp;nbsp; &amp;lt;/div&amp;gt;       CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被">
 <meta name="twitter:image" content="http://img1.cheny.org/dimblog/2013/10/6c8c93717f50f6fadccb91d09f4b981e1.gif">
 
 
@@ -119,7 +118,7 @@
 
 
 
-  <title>你所不知道的伪元素用法 | 我的博客</title>
+  <title> | 我的博客</title>
   
 
 
@@ -253,7 +252,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">你所不知道的伪元素用法</h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -303,20 +302,16 @@
       
 
       
-          <div class="blog_title"><br>    <h3><br>      <a href="mrlipengfei.github.io">你所不知的 CSS ::before 和 ::after 伪元素用法 </a><br>      <em class="actions">      </em><br>    </h3><br><br>        <div class="news_tag">&nbsp;</div>
-
-
-
-
+        <p>title: 你所不知道的伪元素用法<br>date: 2017-09-21 19:01:04<br>tags: :after和:before的妙用<br>  <div class="blog_title"><br>    <h3><br>      <a href="mrlipengfei.github.io">你所不知的 CSS ::before 和 ::after 伪元素用法 </a><br>      <em class="actions">      </em><br>    </h3><br>        <div class="news_tag">&nbsp;</div></div></p>
 <pre><code>&lt;/div&gt;
-</code></pre>  <div id="blog_content" class="blog_content"><br>    <div style="font-size: 14px;" class="iteye-blog-content-contain"><br><p>CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被人用来添加些自定义格式什么的，但是它们的功用不仅于此。前几天发现了 <a title="Creative Link Effects" href="http://tympanus.net/Development/CreativeLinkEffects/" target="_blank">Creative Link Effects</a> 这个非常有意思的介绍创意链接特效的页面，里面惊人的效果大量使用到的特性除了 transform 属性进行变形之外，就是接下来要介绍的这两个伪元素了。</p><br><div style="width: 471px;" class="wp-caption aligncenter"><br><a href="http://img1.cheny.org/dimblog/2013/10/6c8c93717f50f6fadccb91d09f4b981e1.gif" target="_blank" rel="external"><img title="Creative Button Styles" src="http://img1.cheny.org/dimblog/2013/10/6c8c93717f50f6fadccb91d09f4b981e1.gif" alt="Creative Button Styles" width="461" class="attachment-medium " height="186"></a><br><p class="wp-caption-text">Creative Button Styles</p><br></div><br><h3> </h3><br><h3>一 基本语法</h3><br><p>在了解进阶的应用之前，先来了解一下语法规则。平常仅仅需要将这两个伪元素用于添加一些自定义字符时，只需使用伪类使用的单冒号写法，以保证浏览器的兼容性：</p><br><pre class="html" name="code">p:before  {}</pre><br><p> </p><br><p>不过，在 CSS3 中为了区别伪元素和伪类为伪元素使用了双冒号，因此如果使用了 display 或者 width 等属性时使得显示脱离了原本元素后，<span style="line-height: 1.5;">建议</span><span style="line-height: 1.5;">按照标准双写。过于老的浏览器可能会存在支持问题，不过伪元素大多是配合 CSS3 使用，就无所谓向下兼容了：</span></p><br><pre class="html" name="code">img::after {}</pre><br><p><span style="line-height: 1.5;"> </span></p><br><p>这两个伪类下特有的属性 content ，用于在 CSS 渲染中向元素逻辑上的头部或尾部添加内容。注意这些添加不会改变文档内容，不会出现在 DOM 中，不可复制，仅仅是在 CSS 渲染层加入。比较有用的是以下几个值：</p><br><ul><br><li><br><strong>[String]</strong> - 使用引号包括一段字符串，将会向元素内容中添加字符串。示例：<br><pre class="html" name="code">a:after { content: “↗”; }</pre><br> </li><br><li><br><strong>attr()</strong> – 调用当前元素的属性，可以方便的比如将图片的 Alt 提示文字或者链接的 Href 地址显示出来。示例：<br><pre class="html" name="code">a:after { content:”(“ attr(href) “)”; }</pre><br> </li><br><li><br><strong>url() / <strong>uri()</strong></strong> – 用于引用媒体文件。示例：<br><pre class="html" name="code">h1::before { content: url(logo.png); }</pre><br> </li><br><li><br><strong>counter()</strong> –  调用计数器，可以不使用列表元素实现序号功能。具体请参见 counter-increment 和 counter-reset 属性的用法。示例：<br><pre class="html" name="code">h2:before { counter-increment: chapter; content: “Chapter “ counter(chapter) “. “ }</pre><br></li><br></ul><br><h3> </h3><br><h3>二 进阶技巧</h3><br><p>清除浮动是一个时常会遇到的问题，不少人的解决办法是添加一个空的 div 应用 clear:both; 属性。现在，无需增加没有意义的元素，仅需要以下样式即可在元素尾部自动清除浮动：</p><br><pre class="html" name="code">.clear-fix { <em>overflow: hidden; </em>zoom: 1; }<br>.clear-fix:after { display: table; content: “”; width: 0; clear: both; }</pre><br><p> </p><br><p>许多人喜欢给 blockquote 引用段添加巨大的引号作为背景，这种时候我们就可以用 :before 来代替 background 了，即可以给背景留下空间，还可以直接使用文字而非图片：</p><br><pre class="html" name="code">blockquote::before {<br>    content: open-quote;<br>    position: absolute;<br>    z-index: -1;<br>    color: #DDD;<br>    font-size: 120px;<br>    font-family: serif;<br>    font-weight: bolder;<br>}</pre><br><h3> </h3><br><h3>三 特效妙用</h3><br><p>除了简单的添加字符，配合 CSS 强大的定位和特效特性，完全可以达到给简单的元素另外附加最多两个容器的效果。有一点需要注意的是，如果不需要内容仅配合样式属性做出效果，内容属性也不能为空，即 content:”” 。否则，其他的样式属性一概不会生效。</p><br><div style="width: 471px;" class="wp-caption aligncenter"><br><a href="http://img1.cheny.org/dimblog/2013/10/6cc221614774e78add77d4e7a1171f591.gif" target="_blank" rel="external"><img title="悬浮出现方括号" src="http://img1.cheny.org/dimblog/2013/10/6cc221614774e78add77d4e7a1171f591.gif" alt="悬浮出现方括号" width="461" class="attachment-medium " height="186"></a><br><p class="wp-caption-text">悬浮出现方括号</p><br></div><br><p>鼠标移上链接，出现方括号：</p><br><pre class="html" name="code">a {<br>    position: relative;<br>    display: inline-block;<br>    outline: none;<br>    text-decoration: none;<br>    color: #000;<br>    font-size: 32px;<br>    padding: 5px 10px;<br>}<br><br>a:hover::before, a:hover::after { position: absolute; }<br>a:hover::before { content: “\5B”; left: -20px; }<br>a:hover::after { content: “\5D”; right:  -20px; }</pre><br><p> </p><br><p>同样，我们只需要配合 display: block 和 position: absolute ，就可以将其当成两个容器，拼合成悬浮出现双边框的特效：</p><br><pre class="html" name="code">a {<br>    position: relative;<br>    display: inline-block;<br>    outline: none;<br>    text-decoration: none;<br>    color: #000;<br>    font-size: 32px;<br>    padding: 0 10px;<br>}<br><br>/<em> 大框 </em>/<br>a:hover::before, a:hover::after {<br>    content: “”;<br>    display: block;<br>    position: absolute;<br>    top: -15%%;<br>    left: -14%%;<br>    width: 120%;<br>    height: 120%;<br>    border-style: solid;<br>    border-width: 4px;<br>    border-color: #DDD;<br> }<br><br>/<em> 小框 </em>/<br> a:hover::after {<br>     top: 0%;<br>     left: 0%;<br>    width: 100%;<br>    height: 100%;<br>    border-width: 2px;<br> }</pre><br><p> </p><br><p>用 :before 和 :after 伪类结合更多 CSS3 强大的特性，还可以完成非常多有意思的特效和 Hack ，这里权当抛砖引玉，诸位又能想出什么妙用呢？</p><br><p> </p><br><p>原文：<a href="http://blog.dimpurr.com/css-before-after/" target="_blank">http://blog.dimpurr.com/css-before-after/</a></p><br><p> </p><br></div><br>  </div>
+</code></pre>  <div id="blog_content" class="blog_content"><br>    <div style="font-size: 14px;" class="iteye-blog-content-contain"><br><p>CSS 有两个说不上常用的伪类 :before 和 :after，偶尔会被人用来添加些自定义格式什么的，但是它们的功用不仅于此。前几天发现了 <a title="Creative Link Effects" href="http://tympanus.net/Development/CreativeLinkEffects/" target="_blank">Creative Link Effects</a> 这个非常有意思的介绍创意链接特效的页面，里面惊人的效果大量使用到的特性除了 transform 属性进行变形之外，就是接下来要介绍的这两个伪元素了。</p><br><div style="width: 471px;" class="wp-caption aligncenter"><br><a href="http://img1.cheny.org/dimblog/2013/10/6c8c93717f50f6fadccb91d09f4b981e1.gif" target="_blank" rel="external"><img title="Creative Button Styles" src="http://img1.cheny.org/dimblog/2013/10/6c8c93717f50f6fadccb91d09f4b981e1.gif" alt="Creative Button Styles" width="461" class="attachment-medium " height="186"></a><br><p class="wp-caption-text">Creative Button Styles</p><br></div><br><h3>一 基本语法</h3><br><p>在了解进阶的应用之前，先来了解一下语法规则。平常仅仅需要将这两个伪元素用于添加一些自定义字符时，只需使用伪类使用的单冒号写法，以保证浏览器的兼容性：</p><br><pre class="html" name="code">p:before  {}</pre><br><p> </p><br><p>不过，在 CSS3 中为了区别伪元素和伪类为伪元素使用了双冒号，因此如果使用了 display 或者 width 等属性时使得显示脱离了原本元素后，<span style="line-height: 1.5;">建议</span><span style="line-height: 1.5;">按照标准双写。过于老的浏览器可能会存在支持问题，不过伪元素大多是配合 CSS3 使用，就无所谓向下兼容了：</span></p><br><pre class="html" name="code">img::after {}</pre><br><p><span style="line-height: 1.5;"> </span></p><br><p>这两个伪类下特有的属性 content ，用于在 CSS 渲染中向元素逻辑上的头部或尾部添加内容。注意这些添加不会改变文档内容，不会出现在 DOM 中，不可复制，仅仅是在 CSS 渲染层加入。比较有用的是以下几个值：</p><br><ul><br><li><br><strong>[String]</strong> - 使用引号包括一段字符串，将会向元素内容中添加字符串。示例：<br><pre class="html" name="code">a:after { content: “↗”; }</pre><br></li><br><li><br><strong>attr()</strong> – 调用当前元素的属性，可以方便的比如将图片的 Alt 提示文字或者链接的 Href 地址显示出来。示例：<br><pre class="html" name="code">a:after { content:”(“ attr(href) “)”; }</pre><br> </li><br><li><br><strong>url() / <strong>uri()</strong></strong> – 用于引用媒体文件。示例：<br><pre class="html" name="code">h1::before { content: url(logo.png); }</pre><br> </li><br><li><br><strong>counter()</strong> –  调用计数器，可以不使用列表元素实现序号功能。具体请参见 counter-increment 和 counter-reset 属性的用法。示例：<br><pre class="html" name="code">h2:before { counter-increment: chapter; content: “Chapter “ counter(chapter) “. “ }</pre><br></li><br></ul><br><h3>二 进阶技巧</h3><br><p>清除浮动是一个时常会遇到的问题，不少人的解决办法是添加一个空的 div 应用 clear:both; 属性。现在，无需增加没有意义的元素，仅需要以下样式即可在元素尾部自动清除浮动：</p><br><pre class="html" name="code">.clear-fix { <em>overflow: hidden; </em>zoom: 1; }<br>.clear-fix:after { display: table; content: “”; width: 0; clear: both; }</pre><br><p>许多人喜欢给 blockquote 引用段添加巨大的引号作为背景，这种时候我们就可以用 :before 来代替 background 了，即可以给背景留下空间，还可以直接使用文字而非图片：</p><br><pre class="html" name="code">blockquote::before {<br>    content: open-quote;<br>    position: absolute;<br>    z-index: -1;<br>    color: #DDD;<br>    font-size: 120px;<br>    font-family: serif;<br>    font-weight: bolder;<br>}</pre><br><h3>三 特效妙用</h3><br><p>除了简单的添加字符，配合 CSS 强大的定位和特效特性，完全可以达到给简单的元素另外附加最多两个容器的效果。有一点需要注意的是，如果不需要内容仅配合样式属性做出效果，内容属性也不能为空，即 content:”” 。否则，其他的样式属性一概不会生效。</p><br><div style="width: 471px;" class="wp-caption aligncenter"><br><a href="http://img1.cheny.org/dimblog/2013/10/6cc221614774e78add77d4e7a1171f591.gif" target="_blank" rel="external"><img title="悬浮出现方括号" src="http://img1.cheny.org/dimblog/2013/10/6cc221614774e78add77d4e7a1171f591.gif" alt="悬浮出现方括号" width="461" class="attachment-medium " height="186"></a><br><p class="wp-caption-text">悬浮出现方括号</p><br></div><br><p>鼠标移上链接，出现方括号：</p><br><pre class="html" name="code">a {<br>    position: relative;<br>    display: inline-block;<br>    outline: none;<br>    text-decoration: none;<br>    color: #000;<br>    font-size: 32px;<br>    padding: 5px 10px;<br>}<br>a:hover::before, a:hover::after { position: absolute; }<br>a:hover::before { content: “\5B”; left: -20px; }<br>a:hover::after { content: “\5D”; right:  -20px; }</pre><br><p> </p><br><p>同样，我们只需要配合 display: block 和 position: absolute ，就可以将其当成两个容器，拼合成悬浮出现双边框的特效：</p><br><pre class="html" name="code">a {<br>    position: relative;<br>    display: inline-block;<br>    outline: none;<br>    text-decoration: none;<br>    color: #000;<br>    font-size: 32px;<br>    padding: 0 10px;<br>}<br><br>/<em> 大框 </em>/<br>a:hover::before, a:hover::after {<br>    content: “”;<br>    display: block;<br>    position: absolute;<br>    top: -15%%;<br>    left: -14%%;<br>    width: 120%;<br>    height: 120%;<br>    border-style: solid;<br>    border-width: 4px;<br>    border-color: #DDD;<br>}<br>/<em> 小框 </em>/<br> a:hover::after {<br>     top: 0%;<br>     left: 0%;<br>    width: 100%;<br>    height: 100%;<br>    border-width: 2px;<br> }</pre><br><p> </p><br><p>用 :before 和 :after 伪类结合更多 CSS3 强大的特性，还可以完成非常多有意思的特效和 Hack ，这里权当抛砖引玉，诸位又能想出什么妙用呢？</p><br><p> </p><br><p>原文：<a href="http://blog.dimpurr.com/css-before-after/" target="_blank">http://blog.dimpurr.com/css-before-after/</a></p><br><p> </p><br></div><br>  </div>
 
 
 
 
 
 
-</div>
+
       
     </div>
     
@@ -330,12 +325,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/after和-before的妙用/" rel="tag"># :after和:before的妙用</a>
-          
-        </div>
       
 
       
@@ -478,7 +467,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">      你所不知的 CSS ::before 和 ::after 伪元素用法                 </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">一 基本语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">4.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">5.</span> <span class="nav-text">二 进阶技巧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">6.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">7.</span> <span class="nav-text">三 特效妙用</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">      你所不知的 CSS ::before 和 ::after 伪元素用法                 </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">一 基本语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">二 进阶技巧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">4.</span> <span class="nav-text">三 特效妙用</span></a></li></ol></div>
             
 
           </div>
